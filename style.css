@@ -1,0 +1,15 @@
+.section-one {
+  background-image: url(images/blue-paper.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: lightblue;
+}
+
+.container {
+  margin: 0;
+}
+
+.section-one {
+  margin: 70px 0 0 0;
+  color: white;
+}
