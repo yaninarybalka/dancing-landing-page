@@ -1,15 +1,85 @@
-.section-one {
-  background-image: url(images/blue-paper.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: lightblue;
+body {
+  background-color: black;
 }
 
-.container {
-  margin: 0;
-}
-
-.section-one {
-  margin: 70px 0 0 0;
+.contact-info {
+  margin: 15px 20px 0 30px;
+  display: flex;
+  justify-content: space-between;
   color: white;
+}
+.icon {
+  color: white;
+  font-size: 20px;
+  transition: all 150ms ease-in-out;
+}
+
+.icon:hover {
+  color: white;
+}
+
+.carousel {
+  height: 75%;
+}
+/*
+.section-one {
+  background-image: url(images/standing-bw.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 460px;
+  position: relative;
+}
+*/
+
+.text-wrapper {
+  color: white;
+  background-color: black;
+  text-align: center;
+  margin-top: 60px;
+}
+.about-me {
+  text-align: justify;
+  color: white;
+}
+.main-info {
+  padding: 30px 0 0 30px;
+  font-family: "Abril Fatface", cursive;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px black;
+}
+
+.section-two {
+  margin-top: 130px;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.btn {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  display: block;
+  margin: 0 auto;
+  padding: 15px 20px;
+  transition: all 150ms ease-in-out;
+}
+
+.btn:hover {
+  background-color: black;
+  opacity: 0.8;
+  border: 1px solid black;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  margin-top: 150px;
+}
+
+.lazyloaded {
+  width: 75%;
 }
