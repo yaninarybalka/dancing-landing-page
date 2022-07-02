@@ -107,6 +107,10 @@ footer {
 footer .icon {
   color: white;
 }
+
+footer .icon:hover {
+  color: white;
+}
 .lazyloaded {
   width: 75%;
 }
