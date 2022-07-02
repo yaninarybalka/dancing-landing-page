@@ -2,6 +2,12 @@ body {
   background-color: black;
 }
 
+.language-switch {
+  text-align: right;
+  background-color: #fff;
+  padding: 15px 15px 0 0;
+}
+
 .contact-info {
   margin: 15px 20px 0 30px;
   display: flex;
