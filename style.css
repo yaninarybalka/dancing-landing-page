@@ -78,6 +78,12 @@ body {
   text-align: justify;
 }
 
+.card-img-top {
+  height: 235px;
+}
+.card-body {
+  height: 350px;
+}
 .btn {
   color: white;
   background-color: black;
