@@ -104,6 +104,9 @@ footer {
   margin: 150px 0 90px 0;
 }
 
+footer .icon {
+  color: white;
+}
 .lazyloaded {
   width: 75%;
 }
